@@ -8,8 +8,7 @@ const Input = ({leftIcon, name, ...rest}) => {
         {leftIcon ? (<IconConteiner>{leftIcon}</IconConteiner>): null}
         <InputText {...rest}/>
         </InputContainer>
-        
-        
+                
         )
     }
     

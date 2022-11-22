@@ -11,14 +11,15 @@ export const InputContainer = styled.div`
     margin-bottom: 20px;
 `
 
-export const InputContainer = styled.div`
-    margin-rigth: 18px;
+export const IconContainer = styled.div`
+    margin-rigth: 10px;
 
 `
 
 export const InputText = styled.input`
     background-color: transparent;
     color: #FFFFF;
+    width: 100%;
     border: 0;
     height: 30px;
 `
