@@ -1,16 +1,36 @@
-import { Link } from 'react-router-dom';
+import { Link } from "react-router-dom";
 
+import banner from '../../assets/banner.png'
 import { Button } from "../../components/Button";
+import { Header } from "../../components/Header";
 
+import { Container, TextContent, Title, TitleHighlight } from './styles';
 
 const Home = () => {
     return (<>
-    <h1>Home</h1>
-    <Button>Teste 1</Button>
-    <Button variant="secondary">Teste 1</Button>    
-    <Link to="/login">Ir para o login</Link>
-    </>)
-    
-}
+        <Header />
+        <Container>
+            <div>
+                <Title>
+                    <TitleHighlight>
+                        Implemente
+                        <br />
+                    </TitleHighlight>
+                    o seu futuro global agora!
+                </Title>
+                <TextContent>
+                    Domine as tecnologias utilizadas pelas empresas mais inovadoras do mundo e encare seu novo
+                    desafio profissional, evoluindo em comunidade com as melhores experts
+                </TextContent>
+                <Button title="Começa agora" variant="secondary" onClick={() => null} />
+            </div>
+            <div>
+                <img src={ banner} alt = "Imagem principal" />
+            </div>
 
-export { Home }
+        </Container>
+        
+        </>)
+    }
+    
+    export { Home }
