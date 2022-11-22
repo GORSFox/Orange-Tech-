@@ -40,6 +40,19 @@ export const Title = styled.h2`
     
     color: #FFFFF;
 `
+
+export const TitleLogin = styled.h2`
+    font-family: 'Open-Sans';
+    font-style: normal;
+    font-weight: 700;
+    font-size: 32px;
+    width: 320px;
+    margin-botom: 20px;
+    line-height: 44px;
+    
+    color: #FFFFF;
+`
+
 export const SubtitleLogin = styled.p`
     font-family: 'Open-Sans';
     font-style: normal;
