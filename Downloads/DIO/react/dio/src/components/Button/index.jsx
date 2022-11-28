@@ -8,7 +8,7 @@ const Button = ({title, variant="primary", onClick}) => {
       {title}
     
     </ButtonContainer>
-  )
+  );
 }
 
 export {Button}

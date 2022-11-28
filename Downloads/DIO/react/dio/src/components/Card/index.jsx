@@ -8,7 +8,7 @@ import {
     ImageBackground,
     PostInfo,
     UserInfo,
-    UserPicture
+    UserPicture,
 } from './styles';
 
 const Card = () => {
@@ -17,7 +17,7 @@ const Card = () => {
             <ImageBackground />
             <Content>
                 <UserInfo>
-                    <UserPicture />
+                    <UserPicture src="https://avatars.githubusercontent.com/u/45184516?v=4"/>
                     <div>
                         <h4>Glaucia</h4>
                         <p>Há 7 minutos</p>
@@ -25,7 +25,7 @@ const Card = () => {
                 </UserInfo>
                 <PostInfo>
                     <h4>Projeto para curso de HTML e CSS</h4>
-                    <p> Projeto feito o curo de htmll e css no bootamp...<strong>Saiba Mais</strong></p>
+                    <p> Bootcamp Banco Inter  <strong>Saiba Mais</strong></p>
                 </PostInfo>
                 <HasInfo>
                     <h4> #HTML #CSS #Javascript</h4>

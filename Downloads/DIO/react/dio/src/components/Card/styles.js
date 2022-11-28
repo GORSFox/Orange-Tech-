@@ -2,7 +2,7 @@ import  styled from 'styled-components';
 
 export const CardContainer = styled.div `
     width: 100%;
-    background-color: #384651;
+    background-color: #3B4651;
     position: relative;
     margin-bottom: 24px;
    
@@ -88,7 +88,7 @@ export const HasInfo = styled.div `
         font-weight: 700;
         font-size: 12px;
         line-height: 16px;
-        color: #FFFFFF;
+        color: #FFFFFF80
     }
 
     p {
