@@ -11,6 +11,6 @@ export const HeaderContainer = styled.div`
   justify-content: center;
   margin: 40px;
   font-size: 40px;
-  font-family: comic sans-serif;
+  font-family: 'roboto';
   color: #F09326;
 `;
