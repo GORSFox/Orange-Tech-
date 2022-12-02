@@ -1,6 +1,6 @@
-import styled from 'styled-components'
+import styled from 'styled-components';
 
-export const ButtonContainer = styled.div`
+export const ButtonContainer = styled.button`
     height: 30px;
     width: 60%;
     background-color: #FAFAFA;

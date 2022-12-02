@@ -1,5 +1,5 @@
 import React from 'react'
-import { InputContainer } from './styles'
+import { InputContainer } from './styles';
 
 function Input ({value, onChange}) {
     return (
