@@ -5,7 +5,7 @@ export const CardContainer = styled.div `
     background-color: #3B4651;
     position: relative;
     margin-bottom: 24px;
-   
+ 
 `
 
 export const ImageBackground = styled.img `
